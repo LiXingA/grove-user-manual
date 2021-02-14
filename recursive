@@ -1,0 +1,1 @@
+{"blocks":[{"type":"codeTool","data":{"codeData":{"value":"import {c} from \"@recursive/import\"","pinCode":true}}},{"type":"codeTool","data":{"codeData":{"value":"b =  await new Promise((resolve, reject) => {\n  setTimeout(() => {\n    resolve(\"Time’s up!\" +  `recursive ${c}`);\n  }, 5000);\n})","pinCode":true}}}],"version":"2.19.1"}
